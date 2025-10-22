@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header Section  -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Img/logo2.png" alt="logo" class="logo">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Protfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <div class="header-text">
+        <p>Front End Web developer</p>
+        <h1>Hi, I'm <span>Zishan</span> <br> Showdagor From BD</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ---About Section--- -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="about-col-1">
+          <img src="Img/user.png" alt="user">
+        </div>
+
+        <div class="about-col-2">
+          <h2 class="sub-title">About Me</h2>
+          <p class="descrip">As a passionate Front-End Web Developer, I specialize in crafting responsive, user-friendly
+            interfaces
+            using HTML, CSS,
+            and JavaScript. With expertise in modern frameworks like React and a keen eye for UI/UX design, I create
+            seamless,
+            engaging digital experiences. I thrive on optimizing performance and collaborating with teams to deliver
+            polished,
+            accessible websites that delight users across all devices.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experiences')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>UI/UX</span><br>Building Android/IOS Apps</li>
+              <li><span>UI/UX</span><br>Desingning Web/App interfaces</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experiences">
+            <ul>
+              <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+              <li><span>2019- 2021</span><br>Team lead at startApp LLC</li>
+              <li><span>2017-2019</span><br>Internship at ekart eCommerce.</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+              <li><span>2016</span><br>MBA from MIT</li>
+              <li><span>2014</span><br>BBA from ISM</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ---Service--- -->
+
+  <div id="services">
+    <div class="container">
+      <h2 class="sub-title">My Services</h2>
+      <div class="services-list">
+
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>As a Front-End Web Developer, I create responsive, engaging websites using HTML, CSS, JavaScript, and
+            React. I
+            prioritize seamless UI/UX, accessibility, and performance to deliver exceptional digital experiences across
+            device</p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-figma"></i>
+          <h2>UI/UX Design</h2>
+          <p>As a Front-End Web Developer, I craft intuitive, visually appealing UI/UX designs using HTML, CSS, and
+            JavaScript. With
+            React expertise, I create user-friendly, accessible interfaces that enhance engagement across devices.</p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>As a Front-End Web Developer, I build dynamic, responsive web apps using HTML, CSS, JavaScript, and React.
+            I focus on
+            seamless UI/UX, performance, and accessibility to deliver engaging user experiences.</p>
+          <a href="#">Learn More</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ---Portfolio Section--- -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h2 class="sub-title">My Work</h2>
+      <div class="work-list">
+
+        <div class="work">
+          <img src="Img/work-1.png" alt="work1">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app cpnnects you to the talented people around the world.
+              Download it form play store. <br>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="Img/work-2.png" alt="work1">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>The app cpnnects you to the talented people around the world.
+              Download it form play store. <br>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="Img/work-3.png" alt="work1">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>The app cpnnects you to the talented people around the world.
+              Download it form play store. <br>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+
+
+  <!-- --Contract Section--- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+
+        <div class="contact-left">
+          <h2 class="sub-title">Contact Me</h2>
+          <p><i class="fa-solid fa-envelope"></i> zishan8042@gamil.com</p>
+          <p><i class="fa-solid fa-phone"></i> +880 01861811565</p>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/mdzishan.hossani" target="_blank"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/mdzishanhossan" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mdzishanshowdagor/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/md-zishan-showdagor-006393354/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+        </div>
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg">Hello</span>
+        </div>
+
+        <!-- <a href="Img/my-cv.pdf" download class="btn btn2">Download CV</a> -->
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Zishan. Developed <i class="fa-solid fa-heart"></i> by Zishan Showdagor</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="app.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyk21ZnjiGdmbfSSgnYymjmkZFOWBppJ1lfWmf2O_6aAt3F7LC3TPW0E639DzMQ9Iqa/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully";
+          setTimeout(function () {
+            msg.innerHTML = '';
+          }, 5000);
+          form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+  </script>
+
+</body>
+
+</html>
